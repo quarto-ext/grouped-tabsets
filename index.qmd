@@ -37,3 +37,19 @@ Windows-specific examples here.
 :::
 
 These persist across pages. So choosing one tab on this page will affect the default tab on [this page as well](another-page.qmd).
+
+# Repeated groups on the same page
+
+If there are repeated groups on the same page, their tabs are synced:
+
+::: {.panel-tabset group="language"}
+
+## R
+
+R-specific examples here.
+
+## Python
+
+Python-specific examples here.
+
+:::
