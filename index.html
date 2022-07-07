@@ -116,6 +116,21 @@ ul.task-list{list-style: none;}
 </div>
 </div>
 <p>These persist across pages. So choosing one tab on this page will affect the default tab on <a href="./another-page.html">this page as well</a>.</p>
+</section>
+<section id="repeated-groups-on-the-same-page" class="level1">
+<h1>Repeated groups on the same page</h1>
+<p>If there are repeated groups on the same page, their tabs are synced:</p>
+<div class="panel-tabset" data-group="language">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-3-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-1" role="tab" aria-controls="tabset-3-1" aria-selected="true">R</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-2" role="tab" aria-controls="tabset-3-2" aria-selected="false">Python</a></li></ul>
+<div class="tab-content" data-group="language">
+<div id="tabset-3-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-3-1-tab">
+<p>R-specific examples here.</p>
+</div>
+<div id="tabset-3-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-2-tab">
+<p>Python-specific examples here.</p>
+</div>
+</div>
+</div>
 
 
 </section>
