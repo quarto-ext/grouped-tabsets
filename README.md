@@ -1,5 +1,7 @@
 # Grouped Tabsets
 
+[See the extension in action](https://quarto-ext.github.io/grouped-tabsets/).
+
 This quarto extension provides support for "grouped" tabsets in Quarto HTML documents.
 
 Consider the case where you have a collection of tabsets potentially spread across many documents, all logically grouped together. 
