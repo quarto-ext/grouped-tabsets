@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Grouped Tabset Example",
+    "section": "",
+    "text": "Languages\n\nRPython\n\n\nR-specific examples here.\n\n\nPython-specific examples here.\n\n\n\n\n\nOperating Systems\n\nmacOSLinuxWindows\n\n\nmacOS-specific examples here.\n\n\nLinux-specific examples here.\n\n\nWindows-specific examples here.\n\n\n\nThese persist across pages. So choosing one tab on this page will affect the default tab on this page as well."
+  },
+  {
+    "objectID": "another-page.html",
+    "href": "another-page.html",
+    "title": "Another grouped tabsets page",
+    "section": "",
+    "text": "Languages\n\nRPython\n\n\nR-specific examples here.\n\n\nPython-specific examples here.\n\n\n\n\n\nOperating Systems\n\nmacOSLinuxWindows\n\n\nmacOS-specific examples here.\n\n\nLinux-specific examples here.\n\n\nWindows-specific examples here."
+  }
+]
