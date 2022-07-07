@@ -1,0 +1,39 @@
+---
+title: Grouped Tabset Example
+---
+
+This is a minimal example of the [grouped tabsets extension](https://github.com/quarto-ext/grouped-tabsets) for [Quarto](https://quarto.org) documents.
+
+# Languages
+
+::: {.panel-tabset group="language"}
+
+## R
+
+R-specific examples here.
+
+## Python
+
+Python-specific examples here.
+
+:::
+
+# Operating Systems
+
+::: {.panel-tabset group="os"}
+
+## macOS
+
+macOS-specific examples here.
+
+## Linux
+
+Linux-specific examples here.
+
+## Windows
+
+Windows-specific examples here.
+
+:::
+
+These persist across pages. So choosing one tab on this page will affect the default tab on [this page as well](another-page.qmd).

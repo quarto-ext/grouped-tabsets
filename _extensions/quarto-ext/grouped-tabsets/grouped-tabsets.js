@@ -77,9 +77,13 @@ function setupSelectorSync() {
   return selectorsToSync;
 }
 
-window.document.addEventListener("DOMContentLoaded", (event) => {
+window.addEventListener("pageshow", (event) => {
   const selectorsToSync = setupSelectorSync();
   for (const [group, selectedName] of Object.entries(getTabSettings())) {
-    toggleAll(selectedName, selectorsToSync[group]);
+    const selectors = selectorsToSync[group];
+    // it's possible that stale state gives us empty selections, so we explicitly check here.
+    if (selectors) {
+      toggleAll(selectedName, selectors);
+    }
   }
 });
