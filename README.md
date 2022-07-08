@@ -20,11 +20,11 @@ $ quarto install quarto-ext/grouped-tabsets
 
 ## Enabling
 
-Add this to your project `_quarto.yml` file:
+Add this to your document or project options:
 
 ```yaml
 filters:
-  - quarto-ext/grouped-tabsets
+  - grouped-tabsets
 ```
 
 ## Using
