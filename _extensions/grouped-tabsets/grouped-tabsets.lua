@@ -2,7 +2,6 @@
 Div = function(el)
   if quarto.doc.isFormat("html:js") then
     if el.classes:includes('panel-tabset') and el.attributes["group"] then
-      quarto.utils.dump("adding dep")
       quarto.doc.addHtmlDependency({
         name = "grouped-tabsets",
         version = "0.0.1",
