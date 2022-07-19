@@ -15,7 +15,7 @@ Grouped tabs offer easy support for this use case.
 Type this in your shell:
 
 ```
-$ quarto install quarto-ext/grouped-tabsets
+$ quarto install extension quarto-ext/grouped-tabsets
 ```
 
 ## Enabling
